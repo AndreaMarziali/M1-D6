@@ -59,3 +59,11 @@ let splitMe = "I love coding";
 let splitResult = ["I","Love", "Coding"];
 /*console.log(splitResult);*/
 
+/* Ex.5
+   Write a function called "onlyLetters" which receives a string as a parameter and returns it removing all the digits.
+   Ex.: onlyLetters("I have 4 dogs")  => returns "I have  dogs"
+*/
+let onlyLetters = "I have 4 dogs";
+let splitResult = ["I have  dogs"];
+console.log(splitResult);
+
