@@ -21,3 +21,10 @@ let random = Math.floor(Math.random() * 20) + 1;
 */
 let me = {"name": "Andrea", "surname": "Marziali", "age": 25};
 /*console.log(me);*/
+
+/* Ex.E 
+    Programmatically remove the age property from the previously create object.
+*/
+delete me.age;
+/*console.log(me);*/
+
