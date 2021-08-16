@@ -35,6 +35,10 @@ let me = {"name": "Andrea", "surname": "Marziali", "age": 25};
 let skills = ["Html","CSS","JavaScript"];
 /*console.log(me);*/
 
-
+/* Ex.1
+    Write a function called "dice"; it should randomize an integer number between 1 and 6.
+*/
+let dice = Math.floor(Math.random()* 6) + 1;
+/*console.log(dice);*/
 
 
