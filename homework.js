@@ -51,3 +51,11 @@ function whoIsBigger(a, b) {
 }
 /*console.log(myFunction);*/
 
+/* Ex.3
+    Write a function called "splitMe" which receives a string as a parameter and returns an array with every word in that string.
+    Ex. splitMe("I love coding") => returns ["I", "Love", "Coding"]
+*/
+let splitMe = "I love coding";
+let splitResult = ["I","Love", "Coding"];
+/*console.log(splitResult);*/
+
