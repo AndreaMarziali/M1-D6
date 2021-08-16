@@ -41,4 +41,13 @@ let skills = ["Html","CSS","JavaScript"];
 let dice = Math.floor(Math.random()* 6) + 1;
 /*console.log(dice);*/
 
+/* Ex.2 
+    Write a function called "whoIsBigger" which receives 2 numbers as parameters and returns the biggest one.
+*/
+let x = whoIsBigger(4, 3);
+
+function whoIsBigger(a, b) {
+  return a > b;             
+}
+/*console.log(myFunction);*/
 
