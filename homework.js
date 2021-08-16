@@ -28,3 +28,13 @@ let me = {"name": "Andrea", "surname": "Marziali", "age": 25};
 delete me.age;
 /*console.log(me);*/
 
+/* Ex.F 
+   Programmatically add to the object me an array called "skills", containing the programming languages you know right now.
+*/
+let me = {"name": "Andrea", "surname": "Marziali", "age": 25};
+let skills = ["Html","CSS","JavaScript"];
+/*console.log(me);*/
+
+
+
+
