@@ -16,3 +16,8 @@ let sum = 10 + 20;
 let random = Math.floor(Math.random() * 20) + 1;
 /*console.log(random);*/
 
+/* Ex.D
+    Create a variable called "me" and assign to it an object containing the following information: name = your name, surname = your surname, age = your age.
+*/
+let me = {"name": "Andrea", "surname": "Marziali", "age": 25};
+/*console.log(me);*/
