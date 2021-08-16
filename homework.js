@@ -67,3 +67,10 @@ let onlyLetters = "I have 4 dogs";
 let splitResult = ["I have  dogs"];
 console.log(splitResult);
 
+/* Ex.7
+   Write a function called "whatDayIsIt" that should return the current day of the week.
+*/
+let options = {  weekday: 'long', year: 'numeric', month: 'long', day: 'numeric', hour: '2-digit', minute: '2-digit', second: '2-digit', hour12: false };
+let whatDayIsIt = 'Todays is ' + new Date().toLocaleTimeString('en-us', options);
+/*console.log(whatDayIsIt);*/
+
